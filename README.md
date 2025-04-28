@@ -1,36 +1,41 @@
 # 19CS301-Module2
-Exp.No:2(a)	ITERATIVE STATEMENTS- PRINTING N NATURAL NUMBERS
+Exp.No:2(a)	ITERATIVE STATEMENTS- PRINTING DIVISIBLE BY 11 NUMBERS
 ### AIM
-To create a python program for printing n natural numbers.
+To create a  print  numbers  range from M to N (including M and N values) divisible by 11 in reverse order.
 ### ALGORITHM
 
-Step 1:	 Begin the program.
+Start
 
-Step 2:	 Use input() to read the value of n (the upper limit) from the user.
+Read integer a from the user.
 
-Step 3:	 Convert the input to an integer.
+Read integer b from the user.
 
-Step 4:	 Display the message "Natural Numbers are :".
+Loop from i = b down to a (inclusive):
 
-Step 5:	 Use a for loop to iterate from 1 to n (inclusive).
+Use a for loop: for i in range(b, a - 1, -1)
 
-Step 6:	 In each iteration, print the current value of i.
+Check if the current number i is divisible by 11:
 
-Step 7:	 Terminate the program.
+If i % 11 == 0, then:
+
+Print i
+
+End
 
 ### PROGRAM
 ```
-n=int(input())
-print("Natural Numbers are :")
-for i in range(1,n+1,1):
-    print(i)
+a=int(input())
+b=int(input())
+for i in range(b,a-1,-1):
+    if i%11==0:
+        print(i)
 ```
 ### OUTPUT
 ![image](https://github.com/user-attachments/assets/43ae22f0-fa7f-42b0-b99a-11d87aca3aed)
 
  
 ### RESULT
-Thus the python program for printing n natural numbers has been implemented and executed successfully.
+Thus the python program for print  numbers  range from M to N (including M and N values) divisible by 11 in reverse order has been implemented and executed successfully.
 
 Exp.No:2(b)	FUNCTIONS-PERFECT NUMBER
 
