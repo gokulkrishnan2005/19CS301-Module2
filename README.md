@@ -90,7 +90,8 @@ Print the result
 End
 
 ### PROGRAM
-```z=int(input())
+```
+z=int(input())
 product=lambda z:z*56
 print(product(z))
 ```
@@ -105,40 +106,34 @@ Thus the python program using lambda function which takes z as a parameter and r
 Exp.No:2(d)	LOOPING PATTERNS- PRINTING PATTERN
 
 ### AIM
-To write a python program to print the triangular star pattern.
+To write a program to print inverted pyramid pattern with the same digit.
 ### ALGORITHM
 
-Step 1:	 Begin the program.
+Start
 
-Step 2:	 Read the integer n from the user using input(). This will determine the number of rows in the pattern.
+Read integer a from the user
 
-Step 3:	 Initialize a variable i = 0. This will be used to control the number of spaces before the stars.
+Loop from i = a down to 1 (inclusive):
 
-Step 4:	 Loop through rows from 0 to n-1 (this will iterate n times to print the required rows).
+for i in range(a, 0, -1)
 
-Step 5:	  For each row, calculate the number of spaces before the stars. 
+Inside the outer loop, loop from j = 0 to i - 1:
 
-Step 6:	 The formula for the number of spaces is ((n - rows - 1) * 2) + i. 
+for j in range(0, i)
 
-Step 7:	 Print the spaces (" ") using the print(" ", end="") statement. 
+Print the value of a followed by a space (keep on same line)
 
-Step 8:	 Increment i by 1 after each row.
+Print a newline after the inner loop to move to the next row
 
-Step 9:	 For each row, print the stars. The number of stars for each row is equal to rows + 1. Print the stars with print("*", end=" ") to separate them with two spaces.
+End
 
-Step 10:	 After printing each row's stars, print a newline to move to the next row using print("").
-
-Step 11:	 Terminate the program.
 ### PROGRAM
-```n=int(input())
-i=0
-for rows in range(0,n):
-    for cols in range(((n-rows-1)*2)+i):
-        print(" ",end="")
-    i+=1
-    for star in range(rows+1):
-        print("*",end="  ")
-    print("")
+```
+a=int(input())
+for i in range(a,0,-1):
+    for j in range (0,i):
+        print(a,end=" ")
+    print()
 ```
 ### OUTPUT
 ![image](https://github.com/user-attachments/assets/97a7d6f9-97f1-44e6-a8b1-2c110a717d1c)
@@ -146,7 +141,7 @@ for rows in range(0,n):
 
  
 ### RESULT
-Thus the python program to print the triangular start pattern has been implemented and executed successfully.
+Thus the python program to program to print inverted pyramid pattern with the same digit has been implemented and executed successfully.
 
 
 
