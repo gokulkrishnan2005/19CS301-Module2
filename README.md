@@ -166,28 +166,27 @@ Thus the python program to program to print inverted pyramid pattern with the sa
 
 
 
-Exp.No:2(e)	SEB- COMPUTING POWER
+Exp.No:2(e)	SEB- COUNT DIGITS
 
 ### AIM
-To write a python Program to compute the power of the given number using appropriate built -in function .
+To write a python program to count the number of digits in a number. 
 ### ALGORITHM
 
-Step 1:	 Begin the program.
+Start
 
-Step 2:	 Input the base number (base) from the user.
+Read input a from the user (as a string)
 
-Step 3:	 Input the exponent number (exp) from the user.
+Find the length of a using len(a) and store it in b
 
-Step 4:	 Use the built-in pow() function to compute the  base raised to the power of exp.
+Print "The number of digits in the number are:", b
 
-Step 5:	 Print the result using the print() function, displaying the power of the given number in a formatted manner.
+End
 
-Step 6:	 Terminate the program.
 ### PROGRAM
-```base=int(input())
-exp=int(input())
-res=pow(base,exp)
-print(f"Power of the given number is: {res}")
+```
+a=input()
+b=len (a)
+print("The number of digits in the number are:",b)
 ```
 ### OUTPUT
 ![image](https://github.com/user-attachments/assets/f0c61287-b7a6-4c76-908d-396f4104d75b)
@@ -195,7 +194,7 @@ print(f"Power of the given number is: {res}")
  
 
 ### RESULT
-Thus the python program to compute the power using builtin function has been implemented and executed successfully.
+Thus the python program to count the number of digits in a number has been implemented and executed successfully.
 
 
 
