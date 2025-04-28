@@ -95,7 +95,7 @@ product=lambda z:z*56
 print(product(z))
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/d6767aa8-b158-4f19-83f6-af03322a5b9d)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module2/blob/main/jj.png)
 
 
 ### RESULT
