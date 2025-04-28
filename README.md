@@ -57,16 +57,17 @@ End
 
 
 ### PROGRAM
-``'def result (a,b):
+```
+def result (a,b):
     c= a%b
     print ("modulo is",c)
 
 a=int(input())
 b=int(input())
-
 ```
+
 ### OUTPUT
- ![image](https://github.com/user-attachments/assets/cc9562f9-e9f5-4989-82fc-6fcea0ec493f)
+![image](https://github.com/user-attachments/assets/cc9562f9-e9f5-4989-82fc-6fcea0ec493f)
 
 ### RESULT
 Thus the python program to check if a number is a perfect number or not has been implemented and executed successfully.
