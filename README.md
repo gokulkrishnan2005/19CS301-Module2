@@ -31,7 +31,7 @@ for i in range(b,a-1,-1):
         print(i)
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/43ae22f0-fa7f-42b0-b99a-11d87aca3aed)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module2/blob/main/LL.png)
 
  
 ### RESULT
