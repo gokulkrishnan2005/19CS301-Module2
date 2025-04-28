@@ -72,36 +72,34 @@ b=int(input())
 ### RESULT
 Thus the python program  to define a function that accepts 2 values and return its  modulo value has been implemented and executed successfully.
 
-Exp.No:2(c)	BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS- RELATING TWO NUMBERS
+Exp.No:2(c)	BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS- z*56
 
 ### AIM
-To write a python program to check the relation between them. That is if one number is greater or equal or lesser than another number using the lambda function.
+To write a python program using lambda function which takes z as a parameter and returns z*56 using python.
 ### ALGORITHM
+Start
 
-Step 1:	 Begin the program.
+Read integer z from the user
 
-Step 2:	 Use eval() to get the two numbers (num1 and num2) from the user.
+Define a lambda function: product = lambda z: z * 56
 
-Step 3:	 Define a lambda function res that takes two arguments x and y
+Call the product function with input z
 
-Step 4:	 The lambda function compares the numbers and prints which one is smaller: If x > y, it prints num2 is smaller than num1. Otherwise, it prints num1 is smaller than num2.
+Print the result
 
-Step 5:	 Call the res Function: Pass num1 and num2 to the lambda function to perform the comparison.
+End
 
-Step 6:	 Terminate the program.
 ### PROGRAM
-```num1=eval(input())
-num2=eval(input())
-max=lambda x,y: print(f"{num2} is smaller than {num1}") if x>y else print(f"{num1} is smaller than {num2}")![image](https://github.com/user-attachments/assets/4a3ccdb3-e831-41b8-b783-4f58c664521e)
-
-max(num1,num2)
+```z=int(input())
+product=lambda z:z*56
+print(product(z))
 ```
 ### OUTPUT
 ![image](https://github.com/user-attachments/assets/d6767aa8-b158-4f19-83f6-af03322a5b9d)
 
 
 ### RESULT
-Thus the python program to check a relationship between two numbers has been implemented and executed successfully.
+Thus the python program using lambda function which takes z as a parameter and returns z*56 using python has been implemented and executed successfully.
 
 
 Exp.No:2(d)	LOOPING PATTERNS- PRINTING PATTERN
