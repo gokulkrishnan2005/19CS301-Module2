@@ -136,7 +136,7 @@ for i in range(a,0,-1):
     print()
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/97a7d6f9-97f1-44e6-a8b1-2c110a717d1c)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module2/blob/main/oo.png)
 
 
  
