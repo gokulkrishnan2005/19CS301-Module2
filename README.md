@@ -67,10 +67,10 @@ b=int(input())
 ```
 
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/cc9562f9-e9f5-4989-82fc-6fcea0ec493f)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module2/blob/main/kk.png)
 
 ### RESULT
-Thus the python program to check if a number is a perfect number or not has been implemented and executed successfully.
+Thus the python program  to define a function that accepts 2 values and return its  modulo value has been implemented and executed successfully.
 
 Exp.No:2(c)	BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS- RELATING TWO NUMBERS
 
